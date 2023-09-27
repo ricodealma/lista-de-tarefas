@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Lista de Tarefas";
+}
+
+<h2>Lista de Tarefas</h2>
+
+<a class="btn btn-primary" href="/Tarefas/Editar">Criar</a>
+
+<div class="form-group">
+        <div class="row">
+            <div class="col-auto">
+                <label class="form-label"> Filtrar por Nome <input class="form-control" type="text" id="filtroNome" name="filtroNome" /></label>
+            </div>
+            <div class="col-auto">
+            <label class="form-label"> Mostrar somente Completas <input class="form-check" type="checkbox" id="filtroCompleta" name="filtroCompleta" /></label>
+            </div>
+            <div class="col-auto">
+                <br />
+            <button class="btn btn-primary" onclick="tarefas.funcoes.filtrar()">Filtrar</button>
+            </div>
+        </div>
+</div>
+
+<table class="table" id="table">
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Descrição</th>
+        <th>Completa</th>
+        <th>Ações</th>
+    </tr>
+</table>
+<script src="~/content/tarefas/scripts/tarefas.js" defer=""></script>
+
+

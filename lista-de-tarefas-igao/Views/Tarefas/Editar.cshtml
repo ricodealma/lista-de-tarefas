@@ -1,0 +1,56 @@
+﻿@model Tarefa
+@{
+    ViewBag.Title = "Lista de Tarefas";
+}
+
+@if (Model.Id > 0)
+{
+    <h2>Edição de Tarefas</h2>
+    <br />
+    <a class="btn btn-secondary" href="/Tarefas/Editar">Criar</a>
+}
+else
+{
+    <h2>Criação de Tarefas</h2>
+}
+
+<div class="form-group" id="form-group">
+    <div class="col-auto">
+        <label class="form-label"> Nome <input class="form-control" type="text" id="campoNome" name="campoNome" value="@Model.Nome" /></label>
+    </div>
+    <div class="col-auto">
+        <label class="form-label"> Descricao <input class="form-control" type="text" id="campoDescricao" name="campoDescricao" value="@Model.Descricao" /></label>
+    </div>
+    <div class="col-auto">
+        <label class="form-label">
+            Completa
+            <select class="form-select" type="text" id="campoCompleta" name="campoCompleta">
+                @if(Model.Completa){
+                <option value="true">Sim</option>
+                <option value="false">Não</option>
+                }
+                else
+                {
+                    <option value="true">Sim</option>
+                    <option selected="selected" value="false">Não</option>
+                }
+            </select>
+        </label>
+    </div>
+    <div class="col-auto">
+        <input class="form-control" type="number" id="campoId" name="campoId" value="@Model.Id" hidden />
+    </div>
+    <div class="col-auto">
+        <br />
+        @if (Model.Id > 0)
+        {
+            <button onclick="tarefas.funcoes.Editar()" class="btn btn-primary">Editar</button>
+        }
+        else
+        {
+            <button onclick="tarefas.funcoes.Editar()" class="btn btn-primary">Criar</button>
+        }
+        
+    </div>
+</div>
+<script src="~/content/tarefas/scripts/tarefas.js" defer=""></script>
