@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9/ydGvuKcMKAXNqE40k1EBABX2DWyrO1ylTW/XdJyYYyH8J7orslkPOnc8VMrk8/BuD3lBRO/Q38IvgHenye+A==",
+  "dgSpecHash": "hP/l9azljVuJVIzlc/D0nOWSIaOVd8VwSxpUPECV++mjwy+qUt8HU463jAgk4Rr9Io2Tn3Kjk87Ee8jqrLS0dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\source\\repos\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj",
+  "projectFilePath": "D:\\Rafael\\Desktop\\Projetos\\Alura full-stack\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

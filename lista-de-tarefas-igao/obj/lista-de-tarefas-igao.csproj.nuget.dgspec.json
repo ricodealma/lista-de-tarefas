@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\source\\repos\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj": {}
+    "D:\\Rafael\\Desktop\\Projetos\\Alura full-stack\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\source\\repos\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj": {
+    "D:\\Rafael\\Desktop\\Projetos\\Alura full-stack\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj",
+        "projectUniqueName": "D:\\Rafael\\Desktop\\Projetos\\Alura full-stack\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj",
         "projectName": "lista-de-tarefas-igao",
-        "projectPath": "C:\\Users\\Rafael\\source\\repos\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj",
+        "projectPath": "D:\\Rafael\\Desktop\\Projetos\\Alura full-stack\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\lista-de-tarefas-igao.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\source\\repos\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\obj\\",
+        "outputPath": "D:\\Rafael\\Desktop\\Projetos\\Alura full-stack\\lista-de-tarefas-igao\\lista-de-tarefas-igao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
